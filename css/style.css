@@ -33,6 +33,10 @@ h2 {
   height: 510px;
 }
 
+.promo-text {
+  height: 216px;
+}
+
 .features-item {
   float: left;
   width: 400px;
