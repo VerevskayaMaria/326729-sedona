@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
 
@@ -15,7 +16,7 @@
             <li><a href="#">Информация</a></li>
             <li><a href="#">фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиницы</a></li>
+            <li><a class="active" href="hotels.html">Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -36,7 +37,7 @@
           </div>
 
           <div class="selection-price">
-            <h2 class="filter-title">Стоимость в сутки (Р)</h2>
+            <h2 class="filter-title">Стоимость в сутки (Р):</h2>
             <div class="selection-group">
               <label>от
                 <input class="selection-input selection-mim" type="text" value="0">
@@ -52,14 +53,14 @@
             </div>
             <div class="toggle max-toggle">
             </div>
+            <button class="search-hotels-btn" type="submit">Показать</button>
           </div>
-          <button class="btn" type="submit">Показать</button>
         </form>
 
         <section class="result">
           <div class="hotel-sorting">
             <span class="hotel-title">Найдено: 3</span>
-            <span class="hotel-triage">Сортировка</span>
+            <span class="hotel-triage">Сортировка:</span>
             <div class="hotel-label">
               <a href="#" class="price active">По цене</a>
               <a href="#" class="type">По типу</a>
@@ -79,15 +80,18 @@
               <a class="hotel-item-title" href="#">Amara resolt & Spa</a>
               <div class="hotel-wrapper">
                 <div class="hotel-info-item">
-                  Гостиница<a href="#">Подробнее</a>
+                  <span>Гостиница</span>
+                  <a class="btn" href="#">Подробнее</a>
                 </div>
                 <div class="hotel-info-item">
-                  От 3500 р.<a class="btn-alt" href="#">Забронировать</a>
+                  <span>От 3500 р.</span>
+                  <a class="btn-alt" href="#">Забронировать</a>
                 </div>
               </div>
             </div>
             <div class="hotel-right-block">
               <div class="hotel-star">
+                <img src="img/star-4.png">
               </div>
               <div class="hotel-rating">
                 Рейтинг: 8,5
@@ -103,15 +107,18 @@
               <a class="hotel-item-title" href="#">Desert Quail Inn</a>
               <div class="hotel-wrapper">
                 <div class="hotel-info-item">
-                  Мотель<a href="#">Подробнее</a>
+                  <span>Мотель</span>
+                  <a class="btn" href="#">Подробнее</a>
                 </div>
                 <div class="hotel-info-item">
-                  От 2000 р.<a class="btn-alt" href="#">Забронировать</a>
+                  <span>От 2000 р.</span>
+                  <a class="btn-alt" href="#">Забронировать</a>
                 </div>
               </div>
             </div>
             <div class="hotel-right-block">
               <div class="hotel-star">
+                <img src="img/star-3.png">
               </div>
               <div class="hotel-rating">
                 Рейтинг: 8,9
@@ -127,15 +134,18 @@
               <a class="hotel-item-title" href="#">Villas atpoco diablo</a>
               <div class="hotel-wrapper">
                 <div class="hotel-info-item">
-                  Апартаменты<a href="#">Подробнее</a>
+                  <span>Апартаменты</span>
+                  <a class="btn" href="#">Подробнее</a>
                 </div>
                 <div class="hotel-info-item">
-                  От 4000 р.<a class="btn-alt" href="#">Забронировать</a>
+                  <span>От 4000 р.</span>
+                  <a class="btn-alt" href="#">Забронировать</a>
                 </div>
               </div>
             </div>
             <div class="hotel-right-block">
               <div class="hotel-star">
+                <img src="img/star-2.png">
               </div>
               <div class="hotel-rating">
                 Рейтинг: 9,2
@@ -150,13 +160,13 @@
           #Visitsedona
         </div>
         <section class="footer-social">
-          <a class="social-btn social-btn-tw" href="#">Twitter</a>
-          <a class="social-btn social-btn-fb" href="#">Facebook</a>
-          <a class="social-btn social-btn-yt" href="#">Youtube</a>
+          <a class="social-btn social-btn-tw" href="#"></a>
+          <a class="social-btn social-btn-fb" href="#"></a>
+          <a class="social-btn social-btn-yt" href="#"></a>
         </section>
         <section class="footer-copyright">
-          <p>Website by</p>
-          <a href="https://htmlacademy.ru">HTML Academy</a>
+          Website by
+          <a href="https://htmlacademy.ru"></a>
         </section>
       </footer>
     </div>
