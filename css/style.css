@@ -266,7 +266,7 @@ footer {
 }
 
 .search label {
-  padding-right: 14px;
+  padding-right: 20px;
 }
 
 .search-input {
@@ -275,8 +275,8 @@ footer {
 }
 
 .search-input input {
-  width: 346px;
-  padding: 9px;
+  width: 344px;
+  padding: 8px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   color: black;
@@ -332,6 +332,7 @@ footer {
   vertical-align: top;
   padding-top: 15px;
   padding-bottom: 17px;
+  margin-top: 20px;
 }
 
 .search-form {
