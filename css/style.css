@@ -699,6 +699,16 @@ footer {
   margin-top: 10px;
 }
 
+.hotel-info-item .btn-alt:hover {
+  background: rgb(96, 78, 67);
+  color: white;
+}
+
+.hotel-info-item .btn-alt:active {
+  background: rgb(80, 62, 51);
+  color: rgb(133, 120, 113);
+}
+
 .btn {
   background: rgb(129, 179, 210);
   color: white;
