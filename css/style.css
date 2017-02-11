@@ -258,11 +258,47 @@ footer {
   background: rgb(255, 255, 255);
   left: calc(50% - 570px/2);
   padding: 55px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  text-align: left;
 }
 
-.search-form {
+.search label {
+  padding-right: 14px;
+}
+
+.search-input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search-input input {
+  width: 346px;
+  padding: 9px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+}
+
+.search-form-number {
   display: inline-block;
   vertical-align: top;
+}
+
+.search-form-number input {
+  width: 38px;
+  padding: 9px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+}
+
+.search-form-number i {
+  width: 38px;
 }
 
 .form-input {
