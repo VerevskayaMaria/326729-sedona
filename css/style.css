@@ -99,7 +99,8 @@ h2 {
   padding-top: 76px;
   padding-bottom: 72px;
   background: url("../img/index-bgr-mask.png") no-repeat bottom,
-              url("../img/index-bgr.jpg") no-repeat;
+              url("../img/index-bgr.jpg") no-repeat,
+              rgb(42, 62, 69);
 }
 
 .promo-text {
@@ -201,7 +202,7 @@ h2 {
 
 .search-index {
   margin: 0 auto;
-  background-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 
 .offer-title {
@@ -225,7 +226,7 @@ h2 {
 }
 
 .btn-alt {
-  background-color: rgb(118, 99 ,87);
+  background: rgb(118, 99 ,87);
   color: white;
   text-decoration: none;
   font-weight: 700;
@@ -452,7 +453,8 @@ footer {
 }
 
 .search-hotels {
-  background: url("../img/hotels-bgr.jpg");
+  background: url("../img/hotels-bgr.jpg"),
+              rgb(42, 62, 69);
   padding-top: 10px;
   min-height: 207px;
 }
