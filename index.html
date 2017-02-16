@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize-min.css">
+    <link rel="stylesheet" href="css/style-min.css">
   </head>
 
   <body>
@@ -106,34 +107,32 @@
 
         <div class="search">
           <form method="post" action="https://echo.htmlacademy.ru">
-            <div class="search-date">
-              <div class="search-form">
-                <label for="arrival">Дата заезда:</label>
-                <div class="search-input">
-                  <input class="form-input" id="arrive" type="text" name="arrival" value="24 апреля 2016" required>
-                  <i class="icon-calendar"></i>
-                </div>
+            <div class="search-form clearfix">
+              <label for="arrive">Дата заезда:</label>
+              <div class="search-input">
+                <input class="form-input" id="arrive" type="text" name="arrival" value="24 апреля 2016" required>
+                <i class="icon-calendar"></i>
               </div>
-              <div class="search-form">
-                <label for="exit">Дата выезда:</label>
-                <div class="search-input">
-                  <input class="form-input" id="exit" type="text" name="exit" value="4 июля 2016" required>
-                  <i class="icon-calendar"></i>
-                </div>
+            </div>
+            <div class="search-form clearfix">
+              <label for="exit">Дата выезда:</label>
+              <div class="search-input">
+                <input class="form-input" id="exit" type="text" name="exit" value="4 июля 2016" required>
+                <i class="icon-calendar"></i>
               </div>
-              <div class="search-form">
-                <div class="search-form-number">
-                  <label for="grown">Взрослые:</label>
-                  <i class="icon-minus"></i>
-                  <input class="form-input" id="grown" type="text" name="grown" value="2" required>
-                  <i class="icon-plus"></i>
-                </div>
-                <div class="search-form-number">
-                  <label for="children">Дети:</label>
-                  <i class="icon-minus"></i>
-                  <input class="form-input" id="children" type="text" name="children" value="0">
-                  <i class="icon-plus"></i>
-                </div>
+            </div>
+            <div class="search-form clearfix">
+              <div class="search-form-number">
+                <label for="grown">Взрослые:</label>
+                <i class="icon-minus"></i>
+                <input class="form-input" id="grown" type="text" name="grown" value="2" required>
+                <i class="icon-plus"></i>
+              </div>
+              <div class="search-form-number">
+                <label for="children">Дети:</label>
+                <i class="icon-minus"></i>
+                <input class="form-input" id="children" type="text" name="children" value="0">
+                <i class="icon-plus"></i>
               </div>
             </div>
             <button class="btn search-form-btn" type="submit">Найти</button>
@@ -159,6 +158,6 @@
       </footer>
     </div>
 
-    <script src="js/script.js"></script>
+    <script src="js/script-min.js"></script>
   </body>
 </html>
