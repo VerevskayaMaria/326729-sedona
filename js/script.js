@@ -1,7 +1,11 @@
-var search = document.querySelector(".search-index .btn-alt");
-var form = document.querySelector(".search form");
+var search = document.querySelector(".search-index .btn-alt"); 
+var form = document.querySelector(".search form"); 
 
-search.addEventListener("click", function(event) {
-	event.preventDefault();
-	form.classList.toggle("form-search-show");
+search.addEventListener("click", function(event) { 
+  if (form.classList.contains("form-search-show")) { 
+    form.classList.remove("form-search-show"); 
+  } 
+  else { 
+    form.classList.add("form-search-show"); 
+  } 
 });

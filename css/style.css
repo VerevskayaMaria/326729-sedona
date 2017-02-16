@@ -278,12 +278,12 @@ footer {
   text-transform: uppercase;
   text-align: left;
   box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
-  animation-name: slide;
-  animation-duration: 2s;
 }
 
 .form-search-show {
   display: none;
+  animation-name: slide;
+  animation-duration: 2s;
 }
 
 .search-form-btn {
